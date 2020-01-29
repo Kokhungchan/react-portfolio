@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Hello There! I am Kok Hung Chan. A graduate from UWE majoring software engineering. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Passionate on front-end coding. Love to develop mobile applications. Experience in developing applications using React-native, JavaScript, and websites using Html, Css.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Always stay up to date with latest technology. Tech geek and a pet lover too! '} &#128516;
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://drive.google.com/file/d/18J-G3HfoRInj5DkYBR6efVUn1udFUGDE/view"
                     >
                       Resume
                     </a>

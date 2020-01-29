@@ -41,11 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Github.io webpage'}</h3>
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'A simple personal website that coded using html, css and bootstrap. It was my first personal website.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://kokhungchan.github.io'}
                       >
                         See Live
                       </a>
