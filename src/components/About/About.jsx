@@ -34,7 +34,7 @@ const About = () => {
               </div>
             </Fade>
           </Col>
-          <Col md={6} sm={12}>
+          <Col md={5} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
@@ -63,6 +63,18 @@ const About = () => {
               </div>
             </Fade>
           </Col>
+        </Row>
+        <Row className="about-wrapper-icon">
+            <Fade up={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <div className="about-wrapper-icon_icon">
+                <ul class="icons major">
+                <li><i class="fab fa-react"></i></li>
+                <li><i class="fab fa-github-square"></i></li>
+                <li><i class="fas fa-code"></i></li>
+                <li><i class="fab fa-js-square"></i></li>
+                </ul>
+              </div>
+            </Fade>
         </Row>
       </Container>
     </section>
