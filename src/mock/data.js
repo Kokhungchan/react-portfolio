@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hello There! I am Kok Hung Chan. A graduate from UWE majoring software engineering.',
-  paragraphTwo: 'Passionate on front-end coding. Love to develop mobile applications. Experience in developing applications using React-native, JavaScript, and websites using Html, Css.',
-  paragraphThree: 'Always stay up to date with latest technology. Tech geek and a pet lover too! 😄',
+  paragraphOne:
+    'Hello There! I am Kok Hung Chan. A graduate from UWE majoring software engineering.',
+  paragraphTwo:
+    'Passionate on front-end coding. Love to develop mobile applications. Experience in developing applications using React-native, JavaScript, and websites using Html, Css.',
+  paragraphThree:
+    'Always stay up to date with latest technology. Tech geek and a pet lover too! 😄',
   resume: 'https://drive.google.com/file/d/18J-G3HfoRInj5DkYBR6efVUn1udFUGDE/view', // if no resume, the button will not show up
 };
 
@@ -30,7 +33,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'project.jpg',
     title: 'Github.io webpage',
-    info: 'A simple personal website that coded using html, css and bootstrap. It was my first personal website.',
+    info:
+      'A simple personal website that coded using html, css and bootstrap. It was my first personal website.',
     info2: '',
     url: 'https://kokhungchan.github.io',
     repo: 'https://github.com/Kokhungchan/kokhungchan.github.io', // if no repo, the button will not show up

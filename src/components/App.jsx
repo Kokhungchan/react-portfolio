@@ -11,6 +11,7 @@ import { heroData, aboutData, projectsData, contactData, footerData } from '../m
 
 function App() {
   const [hero, setHero] = useState({});
+
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
