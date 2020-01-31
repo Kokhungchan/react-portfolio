@@ -17,7 +17,7 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <script src="https://code.jquery.com/jquery-3.4.1.js" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://kit.fontawesome.com/6d2be1afe0.js" crossOrigin="anonymous" />
         <link
           rel="stylesheet"

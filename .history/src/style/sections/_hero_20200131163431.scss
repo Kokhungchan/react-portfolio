@@ -28,7 +28,8 @@
 
   .navbar{
     padding: 20px 0;
-
+    position: fixed;
+    width: 95%;
     top: 0;
     z-index: 5;
 }
@@ -55,6 +56,12 @@
 .navbar-dark .navbar-nav .nav-item .nav-link {
   color: #989898;
   padding: 5px 15px;
+}
+
+.nav.shrink{
+  background-color: #10caca;
+  height:60px;
+  padding-top: 0px;
 }
 
   .hero-banner {

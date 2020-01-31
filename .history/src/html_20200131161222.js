@@ -17,7 +17,7 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <script src="https://code.jquery.com/jquery-3.4.1.js" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://kit.fontawesome.com/6d2be1afe0.js" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
@@ -25,6 +25,7 @@ export default function HTML({
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossOrigin="anonymous"
         />
+        
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
@@ -32,6 +33,7 @@ export default function HTML({
       <body {...bodyAttributes}>
         {preBodyComponents}
         <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
+        <script src="js/navshrink.js"></script>
         <script
           src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
           integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
