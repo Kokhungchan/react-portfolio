@@ -20,8 +20,6 @@
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   background-position: center;
   background-size: cover;
-  overflow: hidden;
-
 
 
   @include respond(phone) {
@@ -30,6 +28,10 @@
 
   .navbar{
     padding: 20px 0;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    z-index: 5;
 }
 
 .navbar-brand{
@@ -54,6 +56,10 @@
 .navbar-dark .navbar-nav .nav-item .nav-link {
   color: #989898;
   padding: 5px 15px;
+}
+
+.scrolled{
+  background: #10caca;
 }
 
   .hero-banner {
@@ -665,4 +671,7 @@
     }
     
   }
+
+  
 }
+

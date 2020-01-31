@@ -22,7 +22,6 @@ const Header = () => {
 
   return (
     <body id="hero" className="jumbotron">
-      <header>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <a className="navbar-brand">
             KH
@@ -64,7 +63,7 @@ const Header = () => {
             </ul>
           </div>
         </nav>
-      </header>
+      
 
       <div id="stars" />
       <div id="stars2" />
