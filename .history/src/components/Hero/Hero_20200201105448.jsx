@@ -9,7 +9,6 @@ const Header = () => {
   const { img, title, name, subtitle, cta } = hero;
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const { $ } = window;
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -21,21 +20,12 @@ const Header = () => {
     }
   }, []);
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      $('nav').addClass('scrolled');
-    } else {
-      $('nav').removeClass('scrolled');
-    }
-  }
+  window.onscroll = function() {scrollFunction()};
 
-  window.onscroll = function() {
-    scrollFunction();
-  };
+
 
   return (
     <body id="hero" className="jumbotron">
-      <script src="https://code.jquery.com/jquery-3.4.1.js" />
       <nav className="navbar navbar-expand-lg navbar-dark">
         <a className="navbar-brand" href="#/">
           <HeroImg alt="logo" filename={img} />
@@ -101,6 +91,14 @@ const Header = () => {
       </section>
     </body>
   );
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      $('nav').addClass('scrolled');
+    } else {
+      $('nav').removeClass('scrolled');
+    }
+  }
 };
 
 export default Header;

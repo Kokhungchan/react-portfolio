@@ -9,7 +9,8 @@ const Header = () => {
   const { img, title, name, subtitle, cta } = hero;
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const { $ } = window;
+  const $ = window.$;
+  
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -20,14 +21,6 @@ const Header = () => {
       setIsDesktop(false);
     }
   }, []);
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      $('nav').addClass('scrolled');
-    } else {
-      $('nav').removeClass('scrolled');
-    }
-  }
 
   window.onscroll = function() {
     scrollFunction();
@@ -101,6 +94,14 @@ const Header = () => {
       </section>
     </body>
   );
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      $('nav').addClass('scrolled');
+    } else {
+      $('nav').removeClass('scrolled');
+    }
+  }
 };
 
 export default Header;

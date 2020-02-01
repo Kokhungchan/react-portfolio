@@ -1,13 +1,13 @@
 #hero {
   min-height: 100vh;
   height: 100vh;
-  text-align: center;
+  
   align-items: center;
   border-bottom: 0px;
   
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 0rem;
+  padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
   left: 0;
@@ -27,19 +27,20 @@
   }
 
   .navbar{
-    padding: 20px 20px;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     z-index: 5;
     transition: 0.5s;
     width: 100%;
+    text-align: center;
 }
 
 .scrolled {
   height: 70px;
   background: grey;
   transition: 0.35s all ease;
-  padding: 20px 50px;
+  padding: 10px 50px;
   width: 100%;
   white-space: nowrap;
 

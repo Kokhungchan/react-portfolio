@@ -9,7 +9,8 @@ const Header = () => {
   const { img, title, name, subtitle, cta } = hero;
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const { $ } = window;
+  const $ = window.$;
+  
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -28,7 +29,8 @@ const Header = () => {
       $('nav').removeClass('scrolled');
     }
   }
-
+  
+  
   window.onscroll = function() {
     scrollFunction();
   };
@@ -101,6 +103,11 @@ const Header = () => {
       </section>
     </body>
   );
+  
+
+ 
+
+  
 };
 
 export default Header;
