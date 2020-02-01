@@ -60,6 +60,12 @@
   }
 }
 
+.navbar-collapse {
+  ul{
+    
+  }
+}
+
 .navbar-brand{
     font-weight: 800;
     text-transform: uppercase;
@@ -77,18 +83,6 @@
 .navbar-dark .navbar-nav .nav-item.active .nav-link{
   background: #262626;
   color: #fff;
-}
-
-.navbar-dark .navbar-toggler{
-  border:none;
-  color: #fff;
-  border: 2px solid #7f7f7f;
-  border-radius: 0;
-  outline: none;
-}
-
-.navbar-collapse {
-  //background: rgba(0, 0, 0, .8);
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
