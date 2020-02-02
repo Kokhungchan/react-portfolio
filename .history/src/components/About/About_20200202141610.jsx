@@ -28,14 +28,14 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={300} delay={150} distance="30px">
+            <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
           </Col>
           <Col md={5} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={300} delay={150} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
@@ -46,9 +46,7 @@ const About = () => {
                     'Passionate on front-end coding. Love to develop mobile applications. Experience in developing applications using React-native, JavaScript, and websites using Html, Css.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    'Always stay up to date with latest technology. Tech geek and a pet lover too! '}{' '}
-                  &#128516;
+                  {paragraphThree || 'Always stay up to date with latest technology. Tech geek and a pet lover too! '} &#128516;
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -67,24 +65,16 @@ const About = () => {
           </Col>
         </Row>
         <Row className="about-wrapper-icon">
-          <Fade up={isDesktop} bottom={isMobile} duration={300} delay={150} distance="30px">
-            <div className="about-wrapper-icon_icon">
-              <ul className="icons major">
-                <li>
-                  <i className="fab fa-react" />
-                </li>
-                <li>
-                  <i className="fab fa-github-square" />
-                </li>
-                <li>
-                  <i className="fas fa-code" />
-                </li>
-                <li>
-                  <i className="fab fa-js-square" />
-                </li>
-              </ul>
-            </div>
-          </Fade>
+            <Fade up={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
+              <div className="about-wrapper-icon_icon">
+                <ul class="icons major">
+                <li><i class="fab fa-react"></i></li>
+                <li><i class="fab fa-github-square"></i></li>
+                <li><i class="fas fa-code"></i></li>
+                <li><i class="fab fa-js-square"></i></li>
+                </ul>
+              </div>
+            </Fade>
         </Row>
       </Container>
     </section>

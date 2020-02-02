@@ -41,9 +41,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">
-                        {title || 'Github.io webpage'}
-                      </h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Github.io webpage'}</h3>
                       <div>
                         <p>
                           {info ||

@@ -36,14 +36,12 @@ const Projects = () => {
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={300}
-                    delay={150}
+                    duration={1000}
+                    delay={500}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">
-                        {title || 'Github.io webpage'}
-                      </h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Github.io webpage'}</h3>
                       <div>
                         <p>
                           {info ||

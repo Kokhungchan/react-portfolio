@@ -81,7 +81,7 @@ const Header = () => {
       <div id="stars3" />
       <section className="hero-banner">
         <Container>
-          <Fade left={isDesktop} bottom={isMobile} duration={800} delay={300} distance="30px">
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
             <h1 className="hero-title">
               {title || 'Hi, my name is'}{' '}
               <span className="text-color-main">{name || 'Kok Hung Chan'}</span>
@@ -89,7 +89,7 @@ const Header = () => {
               {subtitle || 'React Developer.'}
             </h1>
           </Fade>
-          <Fade left={isDesktop} bottom={isMobile} duration={800} delay={300} distance="30px">
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
             <p className="hero-cta">
               <a className="cta-btn cta-btn--hero" href="#about">
                 {cta || 'Know more'}
