@@ -11,7 +11,7 @@
     .box{
         width:90%;
         margin: 50px auto 0;
-        padding: 0px;
+        padding: 20px;
     }
 
     li{
@@ -44,53 +44,9 @@
         left:0;
         width:100%;
         height: 15px;
-        background-color: #0fffb7;
+        background-color: #262626;
         border-radius: 2px;
         border: 1px solid #0fffb7;
-        animation-duration: 4s;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
-
-    }
-
-    li.html:after{
-        animation-name: html;
-    }
-
-    @keyframes html {
-        to{
-            width: 90%;
-        }
-    }
-
-    li.css:after{
-        animation-name: css;
-    }
-
-    @keyframes css {
-        to{
-            width: 85%;
-        }
-    }
-
-    li.js:after{
-        animation-name: js;
-    }
-
-    @keyframes js {
-        to{
-            width: 75%;
-        }
-    }
-
-    li.react:after{
-        animation-name: react;
-    }
-
-    @keyframes react {
-        to{
-            width: 85%;
-        }
     }
 }
 

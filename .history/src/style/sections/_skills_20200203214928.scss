@@ -1,0 +1,52 @@
+#skills {
+    height: 100%;
+  
+    background-color: #304052;
+    margin-top: -40px;
+    z-index: 2;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
+    position: relative;
+
+    .box{
+        box-sizing: border-box;
+        width:100%;
+        margin: 20px 0;
+        padding: 10px 100px;
+        
+    }
+
+    .box p{
+        color: white;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+        padding: 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .box p:nth-child(1) {
+        float: left;
+        position: relative;
+    }
+
+    .box p:nth-child(2) {
+        float: right;
+        position: relative;
+    }
+
+    .skill {
+        background: #262626;
+        padding: 4px;
+        box-sizing: border-box;
+        border: 1px solid #0fffb7;
+        border-radius: 2px;
+    }
+
+    .level {
+        background: #0fffb7;
+        width: 100%;
+        height: 10px;
+    }
+}
+

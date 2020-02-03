@@ -21,14 +21,29 @@ const Skills = () => {
       <Col>
         <Container>
           <Fade left={isDesktop} bottom={isMobile} duration={300} delay={150} distance="30px">
+        
             <div className="skills box">
-              <ul>
-                <li className="html">HTML</li>
-                <li className="css">CSS</li>
-                <li className="js">JavaScript</li>
-                <li className="react">React</li>
-              </ul>
+                <p>Html</p>
+                <p>90%</p>
+                    <div className="skills skill">
+                        <div className="skills level" style={{width: '90%' }}></div>
+                    </div>
             </div>
+            <div className="skills box">
+                <p>Css</p>
+                <p>85%</p>
+                    <div className="skills skill">
+                        <div className="skills level"></div>
+                    </div>
+            </div>
+            <div className="skills box">
+                <p>React</p>
+                <p>80%</p>
+                    <div className="skills skill">
+                        <div className="skills level"></div>
+                    </div>
+            </div>
+       
           </Fade>
         </Container>
       </Col>

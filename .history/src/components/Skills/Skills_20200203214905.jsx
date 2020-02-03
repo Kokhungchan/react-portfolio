@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Col } from 'react-bootstrap';
+import Title from '../Title/Title';
 
 const Skills = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -21,14 +22,29 @@ const Skills = () => {
       <Col>
         <Container>
           <Fade left={isDesktop} bottom={isMobile} duration={300} delay={150} distance="30px">
+        
             <div className="skills box">
-              <ul>
-                <li className="html">HTML</li>
-                <li className="css">CSS</li>
-                <li className="js">JavaScript</li>
-                <li className="react">React</li>
-              </ul>
+                <p>Html</p>
+                
+                    <div className="skills skill">
+                        <div className="skills level"></div>
+                    </div>
             </div>
+            <div className="skills box">
+                <p>Css</p>
+       
+                    <div className="skills skill">
+                        <div className="skills level"></div>
+                    </div>
+            </div>
+            <div className="skills box">
+                <p>React</p>
+           
+                    <div className="skills skill">
+                        <div className="skills level"></div>
+                    </div>
+            </div>
+       
           </Fade>
         </Container>
       </Col>

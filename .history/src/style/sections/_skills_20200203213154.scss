@@ -1,0 +1,21 @@
+#skills {
+    height: 100%;
+    justify-content: center;
+    background-color: #304052;
+    margin-top: -40px;
+    z-index: 2;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0 20px 500px rgba (0,0,0,.5);
+
+    p{
+        color: white;
+    }
+    
+    .box{
+
+    }
+}
+

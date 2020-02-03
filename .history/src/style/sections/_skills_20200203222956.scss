@@ -11,7 +11,7 @@
     .box{
         width:90%;
         margin: 50px auto 0;
-        padding: 0px;
+        padding: 20px;
     }
 
     li{
@@ -47,7 +47,7 @@
         background-color: #0fffb7;
         border-radius: 2px;
         border: 1px solid #0fffb7;
-        animation-duration: 4s;
+        animation-duration: 0.7s;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
 
@@ -79,17 +79,7 @@
 
     @keyframes js {
         to{
-            width: 75%;
-        }
-    }
-
-    li.react:after{
-        animation-name: react;
-    }
-
-    @keyframes react {
-        to{
-            width: 85%;
+            width: 80%;
         }
     }
 }
