@@ -16,6 +16,8 @@ export const heroData = {
   cta: '',
 };
 
+export const skillsData = {};
+
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
